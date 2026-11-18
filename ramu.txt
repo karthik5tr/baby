@@ -1,5 +1,50 @@
-this side rudresh
+ARROW FUNCTION
+
+const add = (a, b) => a + b;
+
+console.log(add(10, 20));
 
 
 
-no this is manoj
+
+
+
+
+
+SET
+
+
+
+
+let numbers = new Set();
+numbers.add(10);
+numbers.add(20);
+numbers.add(10);
+
+console.log(numbers);
+
+
+
+
+
+
+MAP
+
+
+
+let names = ["Pallavi", "Shilpa", "hita"];
+let upperNames = names.map(name => name.toUpperCase());
+
+console.log(upperNames);
+
+
+
+
+SPREAD
+
+
+let number1 = [10, 20, 30];
+let number2 = [...number1];
+
+console.log(number2);
+
